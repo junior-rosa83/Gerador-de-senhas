@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(125, 0, 228);
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#page {
+  width: 400px;
+  height: 450px;
+  margin: 80px auto;
+  border-radius: 6px;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 2px 5px rgb(212, 186, 236);
+  overflow: hidden;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 15px;
+}
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+form {
+  padding: 20px 25px;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  text-align: start;
+  padding: 0px 20px;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 16px;
+}
+
+#sizePassword {
+  padding: 0 10px;
+  height: 25px;
+  width: 180px;
+  font-size: 14px;
+  border: 1px solid var(--primary-color);
+  border-radius: 3px;
+}
+
+input:checked {
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+
+button {
+  width: 150px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+}
+
+#viewPassword {
+  text-align: center;
+}
+
+#viewPassword #Password {
+  border: 1px solid var(--primary-color);
+  border-radius: 3px;
+  width: 220px;
+  height: 35px;
+  margin: 10px auto;
+  padding: 4px 0;
+}
